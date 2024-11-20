@@ -1,13 +1,21 @@
 Package: ImageFilterGroup5
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Filter a bitmap to grayscale or two-color image with a setting for cutoff
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Authors@R: 
+    person("Eyvind", "Liljegren", , "eyvind.liljegren@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "NA"))
+Maintainer: Eyvind Liljegren <eyvind.liljegren@gmail.com>   
+Description: Provides functions for applying grayscale and two-color filtering to images,
+             with an optional cutoff for the two-color effect.
+Depends: R (>= 4.0)
+Imports: magick
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/eyvindj/ImageFilterGroup5
 BugReports: https://github.com/eyvindj/ImageFilterGroup5/issues
+RoxygenNote: 7.3.2
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
